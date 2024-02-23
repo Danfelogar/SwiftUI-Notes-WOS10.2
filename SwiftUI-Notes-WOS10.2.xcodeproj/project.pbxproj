@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72C0DDC82B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 72C0DDC72B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72C0DDCD2B865EA4007ECF1E /* SwiftUI_Notes_WOS10_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0DDCC2B865EA4007ECF1E /* SwiftUI_Notes_WOS10_2App.swift */; };
+		72C0DDCF2B865EA4007ECF1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0DDCE2B865EA4007ECF1E /* ContentView.swift */; };
+		72C0DDD12B865EAF007ECF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C0DDD02B865EAF007ECF1E /* Assets.xcassets */; };
+		72C0DDD42B865EAF007ECF1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C0DDD32B865EAF007ECF1E /* Preview Assets.xcassets */; };
+		72C0DDE12B8662BA007ECF1E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0DDE02B8662BA007ECF1E /* Note.swift */; };
+		72C0DDE32B868025007ECF1E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0DDE22B868025007ECF1E /* DetailView.swift */; };
+		72C0DDE52B8684D4007ECF1E /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0DDE42B8684D4007ECF1E /* CreditsView.swift */; };
+		72C0DDE82B8685EF007ECF1E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0DDE72B8685EF007ECF1E /* HeaderView.swift */; };
+		72C0DDEA2B868AE1007ECF1E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0DDE92B868AE0007ECF1E /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72C0DDC92B865EA4007ECF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C0DDBB2B865EA4007ECF1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72C0DDC62B865EA4007ECF1E;
+			remoteInfo = "SwiftUI-Notes-WOS10.2 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72C0DDDA2B865EAF007ECF1E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				72C0DDC82B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		72C0DDC12B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Notes-WOS10.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C0DDC72B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Notes-WOS10.2 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C0DDCC2B865EA4007ECF1E /* SwiftUI_Notes_WOS10_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Notes_WOS10_2App.swift; sourceTree = "<group>"; };
+		72C0DDCE2B865EA4007ECF1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72C0DDD02B865EAF007ECF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72C0DDD32B865EAF007ECF1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72C0DDE02B8662BA007ECF1E /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		72C0DDE22B868025007ECF1E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		72C0DDE42B8684D4007ECF1E /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		72C0DDE72B8685EF007ECF1E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		72C0DDE92B868AE0007ECF1E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72C0DDC42B865EA4007ECF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C0DDBA2B865EA4007ECF1E = {
+			isa = PBXGroup;
+			children = (
+				72C0DDCB2B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App */,
+				72C0DDC22B865EA4007ECF1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72C0DDC22B865EA4007ECF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C0DDC12B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2.app */,
+				72C0DDC72B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C0DDCB2B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				72C0DDE62B8685D1007ECF1E /* Component */,
+				72C0DDCC2B865EA4007ECF1E /* SwiftUI_Notes_WOS10_2App.swift */,
+				72C0DDDE2B866288007ECF1E /* Model */,
+				72C0DDDF2B866296007ECF1E /* View */,
+				72C0DDD02B865EAF007ECF1E /* Assets.xcassets */,
+				72C0DDD22B865EAF007ECF1E /* Preview Content */,
+			);
+			path = "SwiftUI-Notes-WOS10.2 Watch App";
+			sourceTree = "<group>";
+		};
+		72C0DDD22B865EAF007ECF1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72C0DDD32B865EAF007ECF1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72C0DDDE2B866288007ECF1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72C0DDE02B8662BA007ECF1E /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72C0DDDF2B866296007ECF1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72C0DDCE2B865EA4007ECF1E /* ContentView.swift */,
+				72C0DDE22B868025007ECF1E /* DetailView.swift */,
+				72C0DDE42B8684D4007ECF1E /* CreditsView.swift */,
+				72C0DDE92B868AE0007ECF1E /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72C0DDE62B8685D1007ECF1E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				72C0DDE72B8685EF007ECF1E /* HeaderView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72C0DDC02B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C0DDDB2B865EAF007ECF1E /* Build configuration list for PBXNativeTarget "SwiftUI-Notes-WOS10.2" */;
+			buildPhases = (
+				72C0DDBF2B865EA4007ECF1E /* Resources */,
+				72C0DDDA2B865EAF007ECF1E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C0DDCA2B865EA4007ECF1E /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-Notes-WOS10.2";
+			productName = "SwiftUI-Notes-WOS10.2";
+			productReference = 72C0DDC12B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		72C0DDC62B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C0DDD72B865EAF007ECF1E /* Build configuration list for PBXNativeTarget "SwiftUI-Notes-WOS10.2 Watch App" */;
+			buildPhases = (
+				72C0DDC32B865EA4007ECF1E /* Sources */,
+				72C0DDC42B865EA4007ECF1E /* Frameworks */,
+				72C0DDC52B865EA4007ECF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-Notes-WOS10.2 Watch App";
+			productName = "SwiftUI-Notes-WOS10.2 Watch App";
+			productReference = 72C0DDC72B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72C0DDBB2B865EA4007ECF1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					72C0DDC02B865EA4007ECF1E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					72C0DDC62B865EA4007ECF1E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 72C0DDBE2B865EA4007ECF1E /* Build configuration list for PBXProject "SwiftUI-Notes-WOS10.2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72C0DDBA2B865EA4007ECF1E;
+			productRefGroup = 72C0DDC22B865EA4007ECF1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72C0DDC02B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 */,
+				72C0DDC62B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72C0DDBF2B865EA4007ECF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0DDC52B865EA4007ECF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C0DDD42B865EAF007ECF1E /* Preview Assets.xcassets in Resources */,
+				72C0DDD12B865EAF007ECF1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C0DDC32B865EA4007ECF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C0DDEA2B868AE1007ECF1E /* SettingsView.swift in Sources */,
+				72C0DDCF2B865EA4007ECF1E /* ContentView.swift in Sources */,
+				72C0DDE82B8685EF007ECF1E /* HeaderView.swift in Sources */,
+				72C0DDE32B868025007ECF1E /* DetailView.swift in Sources */,
+				72C0DDCD2B865EA4007ECF1E /* SwiftUI_Notes_WOS10_2App.swift in Sources */,
+				72C0DDE52B8684D4007ECF1E /* CreditsView.swift in Sources */,
+				72C0DDE12B8662BA007ECF1E /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72C0DDCA2B865EA4007ECF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72C0DDC62B865EA4007ECF1E /* SwiftUI-Notes-WOS10.2 Watch App */;
+			targetProxy = 72C0DDC92B865EA4007ECF1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		72C0DDD52B865EAF007ECF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72C0DDD62B865EAF007ECF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72C0DDD82B865EAF007ECF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Notes-WOS10.2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B66B7LDLW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI-Notes-WOS10.2";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danfelogarDev.www.SwiftUI-Notes-WOS10-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		72C0DDD92B865EAF007ECF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Notes-WOS10.2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B66B7LDLW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI-Notes-WOS10.2";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danfelogarDev.www.SwiftUI-Notes-WOS10-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		72C0DDDC2B865EAF007ECF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B66B7LDLW4;
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI-Notes-WOS10.2";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danfelogarDev.www.SwiftUI-Notes-WOS10.2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		72C0DDDD2B865EAF007ECF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B66B7LDLW4;
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI-Notes-WOS10.2";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danfelogarDev.www.SwiftUI-Notes-WOS10.2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72C0DDBE2B865EA4007ECF1E /* Build configuration list for PBXProject "SwiftUI-Notes-WOS10.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C0DDD52B865EAF007ECF1E /* Debug */,
+				72C0DDD62B865EAF007ECF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C0DDD72B865EAF007ECF1E /* Build configuration list for PBXNativeTarget "SwiftUI-Notes-WOS10.2 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C0DDD82B865EAF007ECF1E /* Debug */,
+				72C0DDD92B865EAF007ECF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C0DDDB2B865EAF007ECF1E /* Build configuration list for PBXNativeTarget "SwiftUI-Notes-WOS10.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C0DDDC2B865EAF007ECF1E /* Debug */,
+				72C0DDDD2B865EAF007ECF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72C0DDBB2B865EA4007ECF1E /* Project object */;
+}
